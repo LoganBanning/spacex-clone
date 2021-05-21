@@ -2,6 +2,7 @@ body {
   background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
   background-repeat: no-repeat;
   background-size: 100vw;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 .spacex {
   color: white;
@@ -26,6 +27,7 @@ nav {
   justify-content: space-between;
   color: white;
   font-weight: bold;
+  font-size: 15px;
 }
 .shop {
   color: white;
@@ -88,9 +90,10 @@ nav {
 .drte {
   font-size: 40px;
   font-weight: bold;
+  font
 }
 .duration {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
 }
 button {
