@@ -1,0 +1,112 @@
+body {
+  background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.spacex {
+  color: white;
+  letter-spacing: 5px;
+}
+.spacex:hover {
+  cursor: pointer;
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  font-family: farro;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+}
+.shop {
+  color: white;
+  display: flex;
+  align-items: right;
+  font-weight: bold;
+  
+}
+.three-bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top-bar {
+  background-color: white;
+  width: 20px;
+  height: 2px;
+  margin-left: 15px;
+}
+.middle-bar {
+  background-color: white;
+  width: 20px;
+  height: 2px;
+  margin-left: 15px;
+}
+.bottom-bar {
+  background-color: white;
+  width: 20px;
+  height: 2px;
+  margin-left: 15px;
+}
+.logo {
+  padding-left: 200px;
+}
+.links {
+  display: flex;
+  padding-right: 50px;
+}
+.links:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.shop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main {
+  margin-left: 15vw;
+  margin-top: 40vh;
+  color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.cm {
+  font-size: 22px;
+  font-weight: lighter;
+  height: 5px;
+}
+.drte {
+  font-size: 40px;
+  font-weight: bold;
+}
+.duration {
+  font-size: 20px;
+  font-weight: lighter;
+}
+button {
+  border: none;
+  border: solid 2px white;
+  background: rgba(255, 255, 255,0);
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transform-origin: bottom center;
+  transition: transform 0.5s;
+}
